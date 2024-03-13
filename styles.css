@@ -23,8 +23,13 @@ body {
     font-size: 100px; /* Ajusta el tamaño del texto según tus necesidades */
     font-weight: bold; /* Ajusta el grosor del texto según tus necesidades */
     margin-bottom: 20px; /* Añade un margen en la parte inferior para separar el título de los recuadros */
+    color: red;
 }
 
+body{
+    background-image: url(imagenS/fondo_pagina.png);
+
+}
 .product.spin {
     animation: spin 2s linear;
 }
@@ -67,6 +72,34 @@ body {
     font-size: 20px; 
     font-weight: bold; 
     color: #034e07bb; 
+}
+.descripcion5 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #4173b6bb; 
+}
+.descripcion6 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #0426e7bb; 
+}
+.descripcion7 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #121312bb; 
+}
+.descripcion8 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #e40505bb; 
 }
 
 
@@ -134,5 +167,57 @@ body {
 }
 
 .comprar-button4:hover {
-    background-color: #0e4702fd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+    background-color: #34e20dfd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+.comprar-button5 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button5:hover {
+    background-color: #3363e7fd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+.comprar-button6 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button6:hover {
+    background-color: #0e33d6fd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+.comprar-button7 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button7:hover {
+    background-color: #0c0c0cfd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+.comprar-button8 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button8:hover {
+    background-color: #e20d0dfd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
 }
